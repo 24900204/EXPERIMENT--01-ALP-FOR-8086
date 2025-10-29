@@ -140,7 +140,9 @@ ret
 ## Output  
 
 <img width="1825" height="964" alt="image" src="https://github.com/user-attachments/assets/d2491fae-d9af-48a0-8de0-c23b1ba31f5f" />
-## Program for logical operation
+
+
+## Program For Logic Operation
 ```
 org 100h
 
@@ -161,11 +163,16 @@ MOV [SI+6], AX
 
 
 ret
+
 ```
 ## Output
+
+
 <img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/eac62148-159e-4735-a1b6-67fcdc1e7841" />
 
 ## Result :
+
+
  Thus, ALP on fundamental arithmetic and logical operations is written and executed successfully.
 
 
