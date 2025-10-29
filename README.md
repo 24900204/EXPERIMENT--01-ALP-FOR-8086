@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :RITHIKA L
+Roll no :212224230231
+Date of experiment :29-10-2025
 
 
 
