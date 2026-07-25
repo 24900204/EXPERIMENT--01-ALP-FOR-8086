@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :RITHIKA L
-Roll no :212224230231
-Date of experiment :29-10-2025
+### Name : NANDHINI S
+### Roll no : 212224230174
+### Date of experiment : 30-012026
 
 
 
@@ -78,102 +78,121 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
 ```
 org 100h
 
-MOV AL, [4000H]
-MOV BL, [4001H]
-ADD AL, BL
-MOV [4002H], AL
+mov ax,[1100h]
 
-ret
+mov bx,[1102h]
+add ax,bx
+mov 1200h,ax
+hlt
 ```
+## Output
 
-## Output  
- <img width="1854" height="990" alt="image" src="https://github.com/user-attachments/assets/006411d2-7f22-4040-a4d8-30001171810e" />
+<img width="1895" height="995" alt="image" src="https://github.com/user-attachments/assets/4e12bbd9-2403-4a9f-9ab3-160757912f96" />
 
+ 
 ## Subtraction   of 8 bit numbers  ALP 
- ```
+```
 org 100h
 
-MOV AL, 97H
-MOV BL, 76H
-SUB AL, BL
-MOV [4000H], AL
+mov ax,[1100h]
 
-
-ret
+mov bx,[1102h]
+sub ax,bx
+mov 1200h,ax
+hlt
 ```
-## Output 
-<img width="1830" height="977" alt="image" src="https://github.com/user-attachments/assets/e514f6c7-0525-462e-9847-b7b7d83c65e9" />
+## Output  
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/2dfc9c83-fd00-4da8-9376-7e3937a4d596" />
 
 ## Multiplication alp 
 ```
 org 100h
 
-MOV AL, [4400H]
-MOV BL, [4401H]
-MUL BL
-MOV [4402H],AL
-MOV [4403], AH
-
-ret
-```
- ## Output  
-
-<img width="1831" height="944" alt="image" src="https://github.com/user-attachments/assets/329a6d23-7df4-45e5-8115-e2744a9a3dd7" />
-
-## Division alp 
-
-```
-org 100h
-
-MOV AL, [4300H]
-MOV BL, [4301H]
-DIV BL
-MOV [4302H], AL
-MOV [4303H], AH
-
-ret
-```
-## Output  
-
-<img width="1825" height="964" alt="image" src="https://github.com/user-attachments/assets/d2491fae-d9af-48a0-8de0-c23b1ba31f5f" />
-
-
-## Program For Logic Operation
-```
-org 100h
-
-MOV AX, 0A32H
-MOV BX, 0B31H
-MOV SI, 5000H
-OR AX, BX
-MOV [SI], AX
-MOV AX, 0A32H
-AND AX, BX
-MOV [SI+2], AX
-MOV AX, 0A32H
-XOR AX, BX
-MOV [SI+4], AX
-MOV AX, 0A32H
-NOT AX
-MOV [SI+6], AX
-
-
-ret
-
+mov ax,[1100h]
+mov bx,[1102h]
+mul bx
+mov 1200h,ax
+mov 1202h,dx
+hlt
 ```
 ## Output
+<img width="1901" height="1025" alt="image" src="https://github.com/user-attachments/assets/fa91a6b2-1cb5-4e3b-a701-16ed40da2160" />
 
+## Division alp 
+```
+org 100h
 
-<img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/eac62148-159e-4735-a1b6-67fcdc1e7841" />
+mov ax,[1100h]
+mov bx,[1102h]
+div bx
+mov 1200h,ax
+mov 1202h,dx
+hlt
+```
+## Output  
+<img width="1895" height="1017" alt="image" src="https://github.com/user-attachments/assets/aec998b5-c0c0-44f6-9625-2cc78aba9884" />
+
+## AND for 8 bit alp:
+```
+org 100h
+
+mov al,[1100h]
+
+mov bl,[1102h]
+AND al,bl
+mov [1200h],al
+hlt
+
+ret
+```
+## Output:
+<img width="1759" height="1123" alt="Screenshot 2026-02-11 230740" src="https://github.com/user-attachments/assets/68b4aa8f-e012-4c42-aad3-c2a89f124d35" />
+
+## OR for 8 bit alp:
+```
+org 100h
+
+mov al,[1100h]
+
+mov bl,[1102h]
+OR al,bl
+mov [1200h],al
+hlt
+```
+## Output:
+<img width="1651" height="1090" alt="Screenshot 2026-02-11 231834" src="https://github.com/user-attachments/assets/70cecf81-14e8-4a81-a6d9-b4bd7d7d5399" />
+
+## NOT for 8 bit alp:
+```
+org 100h
+mov al,[1100h]
+NOT al
+mov [1200h],al
+hlt
+```
+## Output:
+<img width="1916" height="1174" alt="Screenshot 2026-02-11 233029" src="https://github.com/user-attachments/assets/cf80301b-cf5e-49dc-a567-807db753a0b4" />
+
+## XNOR for 8 bit alp:
+```
+org 100h
+
+mov al,[1100h]
+
+mov bl,[1102h]
+XOR al,bl
+not al
+mov [1200h],al
+hlt
+```
+## Output:
+<img width="1921" height="1190" alt="Screenshot 2026-02-11 234416" src="https://github.com/user-attachments/assets/ce3e8e3c-aa97-4d51-bd44-cff827ebfa51" />
 
 ## Result :
-
-
- Thus, ALP on fundamental arithmetic and logical operations is written and executed successfully.
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed. 
 
 
 
