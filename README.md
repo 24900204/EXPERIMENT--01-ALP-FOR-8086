@@ -1,6 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-### Name : NANDHINI S
-### Roll no : 212224230174
+### Name : Rithika L
+### Roll no : 212224230231
 ### Date of experiment : 30-012026
 
 
